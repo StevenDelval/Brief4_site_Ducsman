@@ -12,7 +12,9 @@
 <body>
   <!-- NAVBAR -->
   <nav>
+
     <a id="link" href="#"><span id="burger"></span></a>
+
     <div id="logo">
       <h1>Ducsman</h1>
       <p class="slogan">Sapés comme jamais.</p>
@@ -26,68 +28,100 @@
 
   </nav>
 
+
   <div class="conteneurdroite">
-   
+
+
     <header>
+
       <figure class="bannier">
         <img src="img/photoheader.jpg" alt="photopresentation">
       </figure>
-    
-    </header>
-    <main class="contact">
-      <form method="post">
-      <h2>
-        Une question, demande de devis, un soucis de commande? 
-        Contactez-nous! 
-      </h2>
-      <label for="nom">Nom <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="nom" name="nom" required minlength="4" maxlength="30" size="30" placeholder="Nom" />
-      <label for="prenom">Prénom <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="prenom" name="prenom" required minlength="4" maxlength="30" size="30" placeholder="Prénom" />
-      <label for="email">Email <abbr title="obligatoire">*</abbr>:</label>
-      <input type="email" id="email" placeholder="example@example.com" size="30" required>
-      <label for="tel">Téléphone <abbr title="obligatoire">*</abbr>:</label>
-      <input type="text" id="tel" name="tel" required  maxlength="10" placeholder="0123456789" />
-      <label for="sujet">Sujet pour lequel vous nous contactez :</label>
-      <select name="sujet" id="sujet">
-        <option value="def">Choisissez un sujet</option>
-                    <optgroup label="Un rendez-vous" >
-                        <option value="fr">Pour un devis.</option>
-                        <option value="be">Pour prendre les mesures.</option>
-                    </optgroup>
-                    <optgroup label="Une assistance" >
-                        <option value="jp">Un defaut sur les mesures.</option>
-                        <option value="ch">Vous n'avez toujours pas reçu vos articles.</option>
-                    </optgroup>
-      </select>
 
-      <label>Message à vous faire parvenir ci dessous :</label>
-      <textarea id="suggestion" placeholder="Votre message"></textarea>
-      <button type="submit">Envoyer</button>
+    </header>
+
+
+    <main class="contact">
+
+      <form method="post">
+
+        <h2>
+          Une question, demande de devis, un soucis de commande?
+          Contactez-nous!
+        </h2>
+
+        <label for="nom">Nom <abbr title="obligatoire">*</abbr>:</label>
+        <input type="text" id="nom" name="nom" required minlength="4" maxlength="30" size="30" placeholder="Nom" />
+
+        <label for="prenom">Prénom <abbr title="obligatoire">*</abbr>:</label>
+        <input type="text" id="prenom" name="prenom" required minlength="4" maxlength="30" size="30"
+          placeholder="Prénom" />
+
+        <label for="email">Email <abbr title="obligatoire">*</abbr>:</label>
+        <input type="email" id="email" placeholder="example@example.com" size="30" required>
+
+        <label for="tel">Téléphone <abbr title="obligatoire">*</abbr>:</label>
+        <input type="text" id="tel" name="tel" required maxlength="10" placeholder="0123456789" />
+
+        <label for="sujet">Sujet pour lequel vous nous contactez :</label>
+        <select name="sujet" id="sujet">
+
+          <option value="def">Choisissez un sujet</option>
+
+          <optgroup label="Un rendez-vous">
+            <option value="fr">Pour un devis.</option>
+            <option value="be">Pour prendre les mesures.</option>
+          </optgroup>
+
+          <optgroup label="Une assistance">
+            <option value="jp">Un defaut sur les mesures.</option>
+            <option value="ch">Vous n'avez toujours pas reçu vos articles.</option>
+          </optgroup>
+
+        </select>
+
+        <label>Message à vous faire parvenir ci dessous :</label>
+        <textarea id="suggestion" placeholder="Votre message"></textarea>
+
+        <button type="submit">Envoyer</button>
+
       </form>
-    
+
     </main>
-    
+
+
     <footer>
-        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Halles%20de%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed">
-        </iframe><a href="https://putlocker-is.org"></a><br />
+
+      <iframe id="gmap_canvas"
+        src="https://maps.google.com/maps?q=Halles%20de%20Paris&t=&z=13&ie=UTF8&iwloc=&output=embed">
+      </iframe>
+
       <ul>
+
         <li>
           <a href="https://twitter.com/?lang=fr" target="_blank"><img src="img/twitter.png" alt="logo twitter"
               class="twitter" /></a>
         </li>
+
         <li>
           <a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="img/instagram.png" alt="logo instagram"
               class="instagram" /></a>
         </li>
+
         <li>
           <a href="https://fr-fr.facebook.com/" target="_blank"><img src="img/facebook.png" alt="logo de facebook"
               class="facebook" /></a>
         </li>
+
       </ul>
+
     </footer>
+
+
   </div>
+
   <script src="js/main.js"></script>
+
 </body>
 
 

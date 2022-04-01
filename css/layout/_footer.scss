@@ -5,37 +5,43 @@ footer {
     /*display: flex;
     justify-content: space-around;*/
     background-image: $everlsating_sky;
-    #gmap_canvas{
-        width: 150px; 
+
+    #gmap_canvas {
+        width: 150px;
         height: 150px;
         border-radius: 0px;
         margin-right: 20px;
 
     }
-      ul {
-          width: 75%;
-          display: flex;
-          justify-content: space-around;
-          align-items: center;
-          list-style: none;
-          margin-right: 60px;
-      }
+
+    ul {
+        width: 75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        margin-right: 60px;
+    }
 
 }
+
 @media screen and (max-width:700px) {
     footer {
         width: 100%;
-        #gmap_canvas{
+
+        #gmap_canvas {
             margin-left: 20px;
-        width: 60%;
-        align-self: center;
+            width: 60%;
+            align-self: center;
         }
-        ul{
-        width: 100%;
-        display: flex;
-        flex-flow: column;
-        align-items: center;}
-}
+
+        ul {
+            width: 100%;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+        }
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -43,17 +49,20 @@ footer {
         width: 100%;
         display: flex;
         flex-flow: column;
+        gap: 20px;
 
-        ul{
-        width: 100%;
-        display: flex;
-        flex-flow: row;
-        justify-content: space-evenly;
-        margin: 0px;
+        ul {
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+            margin: 0px;
 
-        .twitter , .instagram , .facebook{
-            height: 50px;
-        }
+            .twitter,
+            .instagram,
+            .facebook {
+                height: 50px;
+            }
         }
     }
 }

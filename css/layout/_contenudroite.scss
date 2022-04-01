@@ -1,5 +1,4 @@
-.conteneurdroite
-{
+.conteneurdroite {
     margin-left: 20%;
     width: 80%;
     top: 0;
@@ -11,10 +10,11 @@
     gap: 50px;
     background-image: $february_ink;
 }
+
 @media screen and (max-width:700px) {
-    .conteneurdroite{
+    .conteneurdroite {
         width: auto;
         margin-left: 35px;
     }
-    
+
 }

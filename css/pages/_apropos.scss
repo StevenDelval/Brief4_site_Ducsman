@@ -1,27 +1,25 @@
-.conteneurapropos
-{ 
+.conteneurapropos {
     min-height: 100vh;
-    
-.apropos
-{   
-    display: flex;
-    flex-flow: column;
-    text-align: justify;
-    gap: 20px;
-    width: 75%;
-    
-    
-.buttonapropos
-     {  display: block;
-        background-color: black;
-        color: $couleur_fond_fonce;
-        text-decoration: none;
-        width: 200px;
-        height: 50px;
-        text-align: center;
-        line-height: 50px;
-        align-self: center;
-        border-radius: 10px;
+
+    .apropos {
+        display: flex;
+        flex-flow: column;
+        text-align: justify;
+        gap: 20px;
+        width: 75%;
+
+
+        .buttonapropos {
+            display: block;
+            background-color: black;
+            color: $couleur_fond_fonce;
+            text-decoration: none;
+            width: 200px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            align-self: center;
+            border-radius: 10px;
+        }
     }
-}
 }

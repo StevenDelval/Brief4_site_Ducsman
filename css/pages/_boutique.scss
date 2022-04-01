@@ -1,4 +1,4 @@
-.boutonhaut{
+.boutonhaut {
     position: fixed;
     bottom: 30px;
     right: 10px;
@@ -10,69 +10,78 @@
     height: 40px;
     background-image: $softgrass;
     border-radius: 50%;
-    img{
+
+    img {
         width: 50%;
         height: 50%;
     }
 }
 
 
-.index_grid
-{
+.index_grid {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    >article:hover{
-    box-shadow: 10px 10px 5px 0px #6b8ccec5 ;
-    transform:scale(1.05) translate(-10px, -10px);
+
+    >article:hover {
+        box-shadow: 10px 10px 5px 0px #6b8ccec5;
+        transform: scale(1.05) translate(-10px, -10px);
 
     }
+
     >article {
         position: relative;
         margin: 0 auto;
         width: 100%;
         max-height: 450px;
         max-width: 300px;
-        a{
+
+        a {
             display: block;
             width: 100%;
             height: 100%;
             max-height: 450px;
             max-width: 300px;
         }
+
         a>img {
             width: 100%;
             height: 100%;
-            object-fit: cover; 
+            object-fit: cover;
         }
-        .etiquette{
+
+        .etiquette {
             position: absolute;
             top: 0;
             right: 0;
             z-index: 1;
             width: 85px;
             height: 47px;
-            img{
+
+            img {
                 width: 100%;
                 height: 100%;
             }
-            .prix{
+
+            .prix {
                 position: absolute;
                 font-size: 12px;
                 top: 17px;
                 right: 10px;
             }
-            
+
         }
-        h2{
-              position: absolute;
-              top: 0;
-              left: 5px;
-              display: block;
-              font-size: 16px;
-              color: $couleur_fond_fonce;
-            }
+
+        h2 {
+            position: absolute;
+            top: 0;
+            left: 5px;
+            display: block;
+            font-size: 16px;
+            color: $couleur_fond_fonce;
+        }
+
         .matieres {
             width: 100%;
             position: absolute;
@@ -80,23 +89,27 @@
             display: flex;
             text-align: center;
             justify-content: space-around;
+
             button {
                 background-color: rgb(0, 0, 0);
                 border-radius: 5px;
                 width: 80px;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color: white;}
+                color: white;
+            }
         }
     }
-    
-    
+
+
 }
+
 @media screen and (max-width:800px) {
     .index_grid {
-        
+
         grid-template-columns: 1fr 1fr;
+    }
 }
-}
+
 @media screen and (max-width:500px) {
     .index_grid {
         width: 100%;
@@ -104,18 +117,20 @@
         flex-flow: column;
         align-items: center;
         margin: 0;
-        >article{
+
+        >article {
             width: 100%;
-            
-        a{
-            display: flex;
-            width: 100%;
-            height: 100%;
-        }
+
+            a {
+                display: flex;
+                width: 100%;
+                height: 100%;
+            }
+
             a>img {
                 width: 100%;
             }
 
         }
-}
+    }
 }

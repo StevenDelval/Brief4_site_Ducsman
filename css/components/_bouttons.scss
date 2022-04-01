@@ -1,23 +1,21 @@
-.boutonDevis
-{
-        background-color: black;
-        color: $couleur_fond_fonce;
-        max-width: 300px;
-        width: 100%;
-        padding: 15px 0px;
-        border-radius: 40px;
-        text-align: center;
-        text-decoration: none;
-        
-      
+.boutonDevis {
+    background-color: black;
+    color: $couleur_fond_fonce;
+    max-width: 300px;
+    width: 100%;
+    padding: 15px 0px;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+
+
 }
 
-.boutonDevis:not(:hover){
-        box-shadow: -5px -5px 2px 0px #fdfcfb;
-    }
-    .boutonDevis:hover{
-        transform: translate(-5px, -5px);
-        transition:all 0.2s ease;
-    }
+.boutonDevis:not(:hover) {
+    box-shadow: -5px -5px 2px 0px #fdfcfb;
+}
 
-
+.boutonDevis:hover {
+    transform: translate(-5px, -5px);
+    transition: all 0.2s ease;
+}

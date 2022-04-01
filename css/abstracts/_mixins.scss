@@ -1,4 +1,4 @@
-@mixin flex_column_aicenter{
+@mixin flex_column_aicenter {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -7,6 +7,6 @@
 /*taille image grille*/
 
 @mixin taille_img_defaultGrid {
-    width : 150px;
-    height : 200px;
+    width: 150px;
+    height: 200px;
 }
